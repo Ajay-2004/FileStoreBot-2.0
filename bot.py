@@ -49,15 +49,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
-                    ],
-                    [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
-                    ],
-                    [
-                        InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💼About Me", callback_data="aboutdevs")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/doflix_studios"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/doflixstudios_official")
                     ]
                 ]
             )
@@ -120,8 +113,8 @@ async def main(bot: Client, message: Message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("♻️Open Link♻️", url=share_link)],
-                     [InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_Yt"),
-                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/Mo_Tech_Group")]]
+                     [InlineKeyboardButton("🔊Channel", url="https://t.me/doflixstudios_official"),
+                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/doflix_studios")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -305,11 +298,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
-                    ],
-                    [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Me", callback_data="aboutdevs")
+                                             url="https://github.com/Ajay-2004/FileStoreBot-2.0")
                     ]
                 ]
             )
@@ -323,7 +312,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                                             url="https://github.com/Ajay-2004/FileStoreBot-2.0")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -340,15 +329,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
-                    ],
-                    [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
-                    ],
-                    [
-                        InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💼About Me", callback_data="aboutdevs")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/doflix_studios"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/doflixstudios_official")
                     ]
                 ]
             )
@@ -383,7 +365,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/doflix_studios_support).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -395,15 +377,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
-                    ],
-                    [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
-                    ],
-                    [
-                        InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("👨‍💼About Me", callback_data="aboutdevs")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/doflix_studios"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/doflixstudios_official")
                     ]
                 ]
             )

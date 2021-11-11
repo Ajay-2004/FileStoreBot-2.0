@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
            
 
 
-@Bot.on_message((filters.document |filters.video |filters.audio) & ~filters.edited)
+@Bot.on_message((filters.document | filters.video | filters.audio) & ~filters.edited)
 async def main(bot: Client, message: Message):
     if message.chat.type == "private":
         chat_id = message.from_user.id
